@@ -1,0 +1,19 @@
+{
+  "name": "blessed-control-landing",
+  "version": "1.3.0",
+  "description": "Landing Page Oficial do Blessed Control | Blessed Academy Jiu-Jitsu (EJS + Tailwind CSS CLI)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npm run build && node --watch server.js",
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --minify",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
