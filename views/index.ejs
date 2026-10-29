@@ -52,8 +52,8 @@
       <div class="flex items-center gap-space-sm shrink-0">
         <a
           class="hidden sm:flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary-container hover:bg-secondary-container hover:text-on-secondary-container font-label-lg text-label-lg transition-all shadow-[0_0_20px_rgba(245,158,11,0.25)]"
-          href="<%= meta.apkDownloadUrl %>"
-          download="<%= meta.apkFileName %>"
+          href="<%= constants.APK_DOWNLOAD_URL %>"
+          download="<%= constants.APK_FILE_NAME %>"
           onclick="triggerApkDownload()"
         >
           <span class="material-symbols-outlined text-[20px]">download</span>
@@ -87,12 +87,12 @@
         <% }); %>
         <a
           class="mt-2 py-3 px-4 rounded-xl bg-primary-container text-on-primary-container font-label-lg text-center flex items-center justify-center gap-2"
-          href="<%= meta.apkDownloadUrl %>"
-          download="<%= meta.apkFileName %>"
+          href="<%= constants.APK_DOWNLOAD_URL %>"
+          download="<%= constants.APK_FILE_NAME %>"
           onclick="toggleMobileMenu(); triggerApkDownload()"
         >
           <span class="material-symbols-outlined text-[20px]">download</span>
-          <span>Baixar Blessed Control (<%= meta.version %>)</span>
+          <span>Baixar Blessed Control (<%= constants.APP_VERSION %>)</span>
         </a>
       </div>
     </div>
@@ -125,12 +125,12 @@
               <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-space-md pt-space-xs w-full sm:w-auto">
                 <a
                   class="flex items-center justify-center gap-space-xs px-4 sm:px-space-lg py-3.5 rounded-xl bg-primary-container hover:bg-secondary-container text-on-primary-container hover:text-on-secondary-container font-label-lg text-label-lg transition-all shadow-[0_4px_24px_rgba(245,158,11,0.35)] active:scale-95 text-center"
-                  href="<%= meta.apkDownloadUrl %>"
-                  download="<%= meta.apkFileName %>"
+                  href="<%= constants.APK_DOWNLOAD_URL %>"
+                  download="<%= constants.APK_FILE_NAME %>"
                   onclick="triggerApkDownload()"
                 >
                   <span class="material-symbols-outlined text-[22px] shrink-0">download</span>
-                  <span>Baixar Blessed Control APK (<%= meta.version %>)</span>
+                  <span>Baixar Blessed Control APK (<%= constants.APP_VERSION %>)</span>
                 </a>
                 <a
                   class="flex items-center justify-center gap-space-xs px-4 sm:px-space-lg py-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-colors border border-white/5 text-center"
@@ -799,8 +799,8 @@
                 </div>
               </div>
               <a
-                href="<%= meta.apkDownloadUrl %>"
-                download="<%= meta.apkFileName %>"
+                href="<%= constants.APK_DOWNLOAD_URL %>"
+                download="<%= constants.APK_FILE_NAME %>"
                 onclick="triggerApkDownload()"
                 class="mt-space-md w-full py-3.5 px-space-md rounded-xl bg-primary-container hover:bg-secondary-container text-on-primary-container hover:text-on-secondary-container font-label-lg text-label-lg flex items-center justify-center gap-space-xs transition-all shadow-[0_0_20px_rgba(245,158,11,0.25)] cursor-pointer"
               >
@@ -958,12 +958,12 @@
           <div class="flex flex-wrap items-center justify-center gap-space-md pt-space-xs w-full sm:w-auto">
             <a
               class="flex items-center gap-space-xs px-space-xl py-4 rounded-xl bg-primary-container hover:bg-secondary-container text-on-primary-container hover:text-on-secondary-container font-label-lg text-label-lg transition-all shadow-[0_4px_30px_rgba(245,158,11,0.4)] active:scale-95"
-              href="<%= meta.apkDownloadUrl %>"
-              download="<%= meta.apkFileName %>"
+              href="<%= constants.APK_DOWNLOAD_URL %>"
+              download="<%= constants.APK_FILE_NAME %>"
               onclick="triggerApkDownload()"
             >
               <span class="material-symbols-outlined text-[24px]">download</span>
-              <span>Baixar APK Gratuito (<%= meta.version %>)</span>
+              <span>Baixar APK Gratuito (<%= constants.APP_VERSION %>)</span>
             </a>
           </div>
           <div class="flex flex-wrap items-center justify-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
@@ -1064,8 +1064,8 @@
       </div>
     </div>
     <a
-      href="<%= meta.apkDownloadUrl %>"
-      download="<%= meta.apkFileName %>"
+      href="<%= constants.APK_DOWNLOAD_URL %>"
+      download="<%= constants.APK_FILE_NAME %>"
       onclick="triggerApkDownload()"
       class="px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-bold flex items-center gap-1 shadow-md"
     >

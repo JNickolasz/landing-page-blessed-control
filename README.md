@@ -86,7 +86,7 @@ Textos, estatísticas, telas, horários, faixas, depoimentos e FAQ ficam em **`s
 ### Publicando uma nova versão do APK
 
 1. Coloque o arquivo novo em `media/apk/`.
-2. Atualize `apkDownloadUrl`, `apkFileName`, `apkSize` e `version` em `meta` no `src/data.js`.
+2. Atualize o ID/URL do Google Drive, `APK_FILE_NAME`, `APK_SIZE` e `APP_VERSION` no arquivo `src/constants.js`.
 3. Rode `npm run build` e faça o commit.
 
 ## Deploy

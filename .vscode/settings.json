@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.ejs": "ejs"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "tailwindCSS.includeLanguages": {
+    "ejs": "html"
+  },
+  "html.validate.scripts": false,
+  "html.validate.styles": false
+}

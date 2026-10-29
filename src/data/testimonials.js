@@ -9,11 +9,11 @@ const testimonials = [
   },
   {
     quote:
-      "Para quem compete todo mês, bater a meta de 4 a 5 treinos por semana e checar as aulas de passagem no próprio celular antes de dormir é outro nível. O radar de técnicas ajuda a ver onde meu jogo tá falho.",
-    initials: "CS",
+      "Para quem é novo no esporte é muito importante ter esse incentivo que a própria academia e o aplicativo nos dão. Torna muito mais prático e prazeroso fazer parte da família Blessed!",
+    initials: "NP",
     colorClass: "text-tertiary",
-    name: "Camila Silveira",
-    role: "Faixa Roxa • Atleta Competidora Gi & No-Gi",
+    name: "Nickolas Paiva",
+    role: "Faixa Branca • Aluno iniciante",
   },
   {
     quote:

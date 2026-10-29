@@ -1,6 +1,6 @@
 const stats = [
   {
-    value: "1.200+",
+    value: "100+",
     colorClass: "text-primary",
     title: "Atletas & Alunos",
     subtitle: "Conectados diariamente no dojo",

@@ -1,3 +1,4 @@
+const constants = require("./constants");
 const meta = require("./meta");
 const navItems = require("./navItems");
 const hero = require("./hero");
@@ -11,6 +12,7 @@ const testimonials = require("./testimonials");
 const faqs = require("./faqs");
 
 const siteData = {
+  constants,
   meta,
   navItems,
   hero,
